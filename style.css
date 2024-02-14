@@ -13,3 +13,18 @@ body{
     height: 50px;
     border:black solid 5px;
 }
+
+.top-rhombus{
+    left: 75px;
+    top: 5px;
+    position: relative;
+    background: red;
+    width:100px;
+    height:100px;
+    clip-path: polygon(
+        50% 0%, 
+        100% 50%, 
+        50% 100%,
+        0% 50%
+    ); 
+}
