@@ -43,3 +43,21 @@ body{
         0% 50%
     ); 
 }
+
+.shapes{
+    display: inline-flex;
+}
+
+.rhombuses{
+    width: 200px;
+}
+
+.top-rect{
+    top: 10px;
+    height:10px;
+    width:150px;
+    display: block;
+    position: relative;
+    background-color: blue;
+    border:black solid 5px;
+}
