@@ -28,3 +28,18 @@ body{
         0% 50%
     ); 
 }
+
+.left-rhombus{
+    left: 5px;
+    top: -25px;
+    position: relative;
+    background: red;
+    width:100px;
+    height:100px;
+    clip-path: polygon(
+        50% 0%, 
+        100% 50%, 
+        50% 100%,
+        0% 50%
+    ); 
+}
