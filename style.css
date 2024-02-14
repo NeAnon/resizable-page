@@ -61,3 +61,13 @@ body{
     background-color: blue;
     border:black solid 5px;
 }
+
+.bottom-rect{
+    top:60px;
+    height:10px;
+    width:150px;
+    display: block;
+    position: relative;
+    background-color: blue;
+    border:black solid 5px;
+}
