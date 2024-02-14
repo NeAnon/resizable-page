@@ -1,3 +1,15 @@
 body{
     background-color: green;
+    margin:0px;
+}
+
+/* The position and size values are temporary and will be adjusted later. */
+
+.top-nav {
+    display: block;
+    position: relative;
+    background-color: #808000;
+    width: 100%-5px;
+    height: 50px;
+    border:black solid 5px;
 }
