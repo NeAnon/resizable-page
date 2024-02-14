@@ -71,3 +71,15 @@ body{
     background-color: blue;
     border:black solid 5px;
 }
+
+.ellipse{
+    left: 125px;
+    top: -35px;
+    position: relative;
+    background: teal;
+    width:200px;
+    height:100px;
+    clip-path: ellipse(
+        45px 40px
+    ); 
+}
