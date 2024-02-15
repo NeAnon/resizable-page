@@ -179,6 +179,12 @@ body{
         background-color: blue;
     }
 
+    .rects-and-ellipse{
+        grid-area: 7 / 1 / 11 / 2;
+        justify-self: start;
+        align-self: end;
+    }
+
     /* Clamp down content into a column if the page becomes small enough. */
     .shapes{
         grid-template-rows: repeat(9, 45px);
