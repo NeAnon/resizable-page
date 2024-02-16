@@ -151,6 +151,7 @@ body{
     text-align:center;
     background-color: #C83737;
     border:black solid 5px;
+    transition: background-color 0.5s, position 0.5s;
 }
 
 .text{
@@ -169,6 +170,7 @@ body{
         grid-area: 4 / 2 / 7 / 3;
         justify-self: center;
         align-self: center;
+        transition: 0.5s;
     }
 }
 
