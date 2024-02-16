@@ -161,6 +161,10 @@ body{
     position: relative;
 }
 
+/* I have no good way to animate the grid transitions without 
+ripping out the grid supporting this whole thing, 
+and no more time to rebuild this. */
+
 @media screen and (min-width: 901px) {
     .text-box{
         background-color: white;
